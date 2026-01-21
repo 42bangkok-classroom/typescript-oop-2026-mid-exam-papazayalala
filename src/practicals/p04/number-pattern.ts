@@ -1,23 +1,4 @@
 // Write your code below
-/*
-const N : number =Number(process.argv[2]);
-if ( isNaN(N) || N <= 0 ){
-}
-else{
-    let space ="";
-    for(let i=1 ; i<N ; i++){
-        let k =- N;
-        for(let l=1 ; l<= (N-1) ;l++){
-            space +="*";
-        }
-        for(let w=1 ; w<=i ; w++){
-            space += i;
-        }
-        space += "\n";
-    }
-    console.log(space);
-}
-*/
 const N : number =Number(process.argv[2]);
 if ( isNaN(N) || N <= 0 ){
 }
